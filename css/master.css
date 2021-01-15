@@ -37,7 +37,7 @@ h1 {
   background-size: 100%;
   border-radius: 15px;
   box-shadow: 1px 1px 5px black;
-  position: relative;
+  position :relative;
 }
 .card:hover {
   background-color: white;
@@ -45,9 +45,20 @@ h1 {
   background-repeat: no-repeat;
   background-size: 90%;
 }
-.card.bicycle:hover {
-  background-image: url(../img/noun_Bicycle_3134821.png);
+
+.text {
+  position: absolute;
+  bottom: 2%;
+  left: 33%;
+  color: #ffffff00;
 }
+
+.bicycle:hover {
+  background-image: url(../img/noun_Bicycle_3134821.png);
+  color: green;
+}
+
+
 .card.cruise_ship:hover {
   background-image: url(../img/noun_Cruise_Ship_3134824.png);
 }
